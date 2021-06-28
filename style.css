@@ -59,11 +59,21 @@
     margin-right: 3.125rem;
     border:none;
     text-decoration: none;
-    text-transform: uppercase;
     margin-bottom: 0.625rem;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
   }
+
+  .nav-left a:hover {
+      border-bottom: 3px solid #FFFFFF;
+      padding-bottom: 0.5rem;
+  }
+
+  .nav-right a:focus {
+        color: #FFFFFF;
+  }
+
+
 
 .nav-right a{
     font-family: 'Noto Sans', sans-serif;
@@ -152,8 +162,15 @@ button {
     background-color:#F8F8F8;
 }
 
+.icon-phone, .icon-location, .iconCalendar {
+    padding-top: 3.9375rem;
+    padding-left: 3.125rem;
+    padding-bottom: 0.625rem;;
+
+}
+
 .container-bottom{
-    background-color:#861313;
+    background-color:#FFFFFF;
     height: 62.5rem;
     padding-left:10rem;
     padding-right:10rem;
@@ -196,7 +213,6 @@ h2 {
 
 .right-column-button {
     padding-top: 2.75rem;
-    padding-bottom:1rem;
 }
 
 .signature-container {
@@ -234,14 +250,12 @@ h2 {
 
 .first-column {
     width: 33.33%;
-    background-color:blueviolet;
     float:left;
     height: 12.8125rem;
 }
 
 .second-column {
     width: 33.33%;
-    background-color:blueviolet;
     float:left;
     height: 12.8125rem;
 
@@ -249,7 +263,6 @@ h2 {
 
     .third-column {
         width: 33.33%;
-        background-color:blueviolet;
         float:left;
         height: 12.8125rem;
 
@@ -257,7 +270,7 @@ h2 {
     }
 
 .first-column h2 {
-    border-top: 0.0625rem solid black;
+    border-top: 0.0625rem solid #D4D4D4;
     margin-top: 0rem;
     margin-right:3.125rem;
     font-family:Poppins-Bold;
@@ -267,23 +280,41 @@ h2 {
 }
 
 .second-column h3 {
-    border-top: 0.0625rem solid black;
+    border-top: 0.0625rem solid #D4D4D4;
     margin-top: 0rem;
     margin-right:3.125rem;
     font-family:Poppins-Bold;
     font-size: 1.6875rem;
     padding-top:3.3125rem;
+    padding-bottom: 13px;
+    margin-bottom: 0px;;
 
 }
 
 .third-column h3 {
-    border-top: 0.0625rem solid black;
+    border-top: 0.0625rem solid #D4D4D4;
     margin-top: 0rem;
     margin-right:3.125rem;
     font-family:Poppins-Bold;
     font-size: 1.6875rem;
     padding-top:3.3125rem;
+    padding-bottom: 0.8125rem;
+    margin-bottom: 0rem;
 
+}
+
+.second-column-text{
+    padding-right: 3.125rem;
+    font-family: Poppins-Regular;
+    font-size: 1.1875rem;
+    color: #6C6C6C;
+}
+
+.third-column-text {
+    padding-right: 3.125rem;
+    font-family: Poppins-Regular;
+    font-size: 1.1875rem;
+    color: #6C6C6C;
 }
 
 
