@@ -25,7 +25,7 @@
 
   .container-top {
         background-color: #0000004F;
-        height: 1000px;
+        height: 62.5rem;
         padding-left:10rem;
         padding-right:10rem;
         position: relative;
@@ -145,7 +145,7 @@ button {
  .col-1{
 
     width: 33.33%;
-    height: 400px;
+    height: 25rem;
     float:left;
 
 }
@@ -166,6 +166,61 @@ button {
     padding-top: 3.9375rem;
     padding-left: 3.125rem;
     padding-bottom: 0.625rem;;
+
+}
+
+.col-1-right-header, .col-1-middle-header, .col-1-left-header {
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+
+}
+
+.col-1-right-header h3, .col-1-middle-header h3 {
+    font-family:Poppins-Bold;
+    font-size: 1.6875rem;
+    color: #FFFFFF;
+    padding-right: 13.375rem;
+    border-top: 0.0625rem solid #FFFFFF26;
+    padding-top: 1.4063rem;
+
+}
+
+.col-1-left-header h3 {
+    font-family:Poppins-Bold;
+    font-size: 1.6875rem;
+    color: #060606;
+    padding-right: 13.375rem;
+    border-top: 1px solid #06060626;
+    padding-top:1.4063rem;
+
+}
+
+.col-1-right-text {
+    font-family: Poppins-Regular;
+    font-size: 1.1875rem;
+    color: #FFFFFF;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+}
+
+.col-1-middle-text {
+    font-family: Poppins-Regular;
+    font-size: 1.1875rem;
+    color: #FFFFFF;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+}
+
+
+
+.col-1-left-text-1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins-Regular;
+    font-size: 1.1875rem;
+    color: #6C6C6C;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
 
 }
 
