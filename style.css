@@ -124,12 +124,19 @@ p {
 button {
     font-family: Poppins-Bold; 
     color: #FFFFFF;
+    font-size: 0.9375rem;
     width: 13.125rem;
     height: 4.0625rem;
     background-color: #446CCD;
     opacity: 1;
     border: none;
     font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #053199;
 
 }
  .cols {
@@ -201,6 +208,8 @@ button {
     color: #FFFFFF;
     padding-left: 3.125rem;
     padding-right: 3.125rem;
+    height:4.875rem;
+
 }
 
 .col-1-middle-text {
@@ -209,6 +218,7 @@ button {
     color: #FFFFFF;
     padding-left: 3.125rem;
     padding-right: 3.125rem;
+    height:4.875rem;
 }
 
 
@@ -223,6 +233,45 @@ button {
     padding-right: 3.125rem;
 
 }
+
+.col-1-right-link {
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    padding-top: 0.3125rem;
+}
+
+.col-1-right-link a {
+    font-family: Poppins-Bold;
+    font-size: 0.9375rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.col-1-right-link a:hover {
+    border-bottom: 3px solid #FFFFFF;
+    padding-bottom: 0.3125rem;
+}
+
+.col-1-middle-link {
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    padding-top: 0.3125rem;
+}
+
+.col-1-middle-link a {
+    font-family: Poppins-Bold;
+    font-size: 0.9375rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.col-1-middle-link a:hover {
+    border-bottom: 3px solid #FFFFFF;
+    padding-bottom: 0.3125rem;
+}
+
+
+
 
 .container-bottom{
     background-color:#FFFFFF;
@@ -244,8 +293,9 @@ button {
 h2 {
     font-family: Poppins-Bold;
     font-size: 2.4375rem;
-    padding-top: 0.5625rem;
-    padding-bottom: 1rem;
+    padding-top: 9px;
+    padding-bottom: 16px;
+    margin:0;
 }
 
 .right-column {
@@ -372,17 +422,23 @@ h2 {
     color: #6C6C6C;
 }
 
+/* @media screen and (max-width: 720px) {
 
-  /* .nav a{
-      display:block;
-    color: #FFFFFF;
-    float:left;
-    font-size: 17px;
-    padding: 50px;
-    border:none;
-    text-decoration: none;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;}*/
+    html {
+      font-size: 1.1667rem;
+    }
 
+
+
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+    .topnav a {
+        float: none;
+        width: 100%;
+      }
+
+  } */
   
   
