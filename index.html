@@ -14,23 +14,34 @@
 
 <body>
     <div class="container-top">
-        <div class="header">
-            <div class="nav-left">
-                <a href="#"> SERVICES </a>
-                <a href="#"> OUR TEAM </a>
-                <a href="#"> TESTIMONIALS </a>
-                <a href="#"> NEWS </a>
-                <a href="#"> CONTACTS </a>
-                <a href="#"> ABOUT US </a>
+            <div class="navbar-component">
+                <div class="navbar area">
+    
+                    <nav id="navigation" class="list">
+                        <a href="#" class="item -link">Pagrindinis</a>
+                        <a href="#" class="item -link">Straipsniai</a>
+                        <a href="#" class="item -link">Projektai</a>
+                        <a href="#" class="item -link">Resursai</a>
+                        <a href="#" class="item -link">Apie mane</a>
+                    </nav>
+    
+                    <nav id='navigation' class='list-2'>
+                        <a href='#' class='item -link'>RU</a>
+                        <a href='#' class='item -link'>EN</a>
+                        <span class="item">
+                            <i class="fa fa-search"></i>
+                        </span>
+                    </nav>
+    
+                    <button id="hamburger" class="toggle">
+                        <span class="icon"></span>
+                    </button>
+    
+                </div>
+    
+    
             </div>
-            <div class="nav-right">
-                <a href="#">EN</a>
-                <a href="#">RU</a>
-            </div>
-            <div class="search-logo">
-                <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-            </div>
-        </div>
+        
         <div class="middle_box">
             <h1>Let us brighten your smile!</h1>
             <p>We are dental care clinic that helps people to take care of their health and we have best dental doctors
@@ -155,13 +166,18 @@
                 </div>
             </div>
         </div>
-
         <div class="bottom-bar">
         </div>
-
     </div>
+    
+    <script>
 
-
+        document.querySelector('.toggle').onclick = function () {
+            this.classList.toggle('active');
+            document.querySelector('.list').classList.toggle('active');
+            document.querySelector('.list-2').classList.toggle('active');
+        }
+    </script>
 
 
 
